@@ -1,0 +1,838 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Mon May  9 10:32:00 2022
+
+# Variables
+
+# environment
+GDK_BACKEND = x11
+# environment
+AS = as
+# environment
+out = /nix/store/b8a2xx1c35xv0s9l2y3famv5gggrwc9h-app
+# environment
+LC_ALL = C
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+SSH_AGENT_LAUNCHER = gnome-keyring
+# environment
+AR = ar
+# environment
+shellHook = null
+# environment
+SNAP_INSTANCE_KEY = 
+# makefile (from 'build/ihp-lib/Makefile.dist', line 58)
+GHC_EXTENSIONS = -XOverloadedStrings -XNoImplicitPrelude -XImplicitParams -XRank2Types -XDisambiguateRecordFields -XNamedFieldPuns -XDuplicateRecordFields -XOverloadedLabels -XFlexibleContexts -XTypeSynonymInstances -XFlexibleInstances -XQuasiQuotes -XTypeFamilies -XPackageImports -XScopedTypeVariables -XRecordWildCards -XTypeApplications -XDataKinds -XInstanceSigs -XDeriveGeneric -XMultiParamTypeClasses -XTypeOperators -XDeriveDataTypeable -XMultiWayIf -XUndecidableInstances -XBlockArguments -XPartialTypeSignatures -XLambdaCase -Wno-unsafe -Wno-name-shadowing -Wno-monomorphism-restriction -Wno-safe -Wno-missing-local-signatures -Wno-missing-home-modules -XDefaultSignatures -XEmptyDataDeriving -XBangPatterns -XBlockArguments -XMultiWayIf -XFunctionalDependencies -fbyte-code -Wno-partial-type-signatures -XPartialTypeSignatures -XStandaloneDeriving -XDerivingVia -Werror=missing-fields -fwarn-incomplete-patterns -XTemplateHaskell
+# environment
+TEMPDIR = /run/user/1000
+# environment
+TMPDIR = /run/user/1000
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# environment
+doInstallCheck = 
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-e4d2db0f-afca-40af-b441-c4c80da9eacf.sock
+# environment
+buildPhase = null
+# environment
+VSCODE_CWD = /home/cjd
+# environment
+WINDOWPATH = 2
+# environment
+NIX_CFLAGS_COMPILE =  -frandom-seed=b8a2xx1c35 -isystem /nix/store/ywwbjpn24a3fq5912zcy2vw24xz42ayk-postgresql-and-plugins-13.5/include -isystem /nix/store/ywwbjpn24a3fq5912zcy2vw24xz42ayk-postgresql-and-plugins-13.5/include
+# default
+MAKE_COMMAND := make
+# environment
+strictDeps = 
+# environment
+QT_ACCESSIBILITY = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+SNAP_INSTANCE_NAME = code
+# environment
+GDK_PIXBUF_MODULEDIR = /snap/code/95/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/cjd/blog
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+SOURCE_DATE_EPOCH = 315532800
+# environment
+XDG_DATA_DIRS = /nix/store/pjba17qx8vh7dln8m5vnkqdbbjahvg9b-patchelf-0.13/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+NIX_LDFLAGS = -rpath /nix/store/b8a2xx1c35xv0s9l2y3famv5gggrwc9h-app/lib64 -rpath /nix/store/b8a2xx1c35xv0s9l2y3famv5gggrwc9h-app/lib  -L/nix/store/ywwbjpn24a3fq5912zcy2vw24xz42ayk-postgresql-and-plugins-13.5/lib -L/nix/store/yilda176cq33hbv240mqzkf6ks6r9b1p-ncurses-6.2/lib -L/nix/store/54q7szc4fhiyh7pmjh9x2w90f18m5s6f-libffi-3.4.2/lib -L/nix/store/cc7in2rgprp7lp8lggp42nygjxwq3ycz-gmp-6.2.1/lib -L/nix/store/ywwbjpn24a3fq5912zcy2vw24xz42ayk-postgresql-and-plugins-13.5/lib -L/nix/store/yilda176cq33hbv240mqzkf6ks6r9b1p-ncurses-6.2/lib -L/nix/store/54q7szc4fhiyh7pmjh9x2w90f18m5s6f-libffi-3.4.2/lib -L/nix/store/cc7in2rgprp7lp8lggp42nygjxwq3ycz-gmp-6.2.1/lib
+# environment
+OLDPWD = null
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NIX_GHCPKG = /nix/store/1x0n406jvcxp6j77mznpbc4j6d604i1j-ghc-8.10.7-with-packages/bin/ghc-pkg
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/cjd/.config/Code/CachedData/57fd6d0195bb9b9d1b49f6da5db789060795de47
+# makefile (from 'Makefile', line 28)
+JS_FILES = ${IHP}/static/vendor/jquery-3.6.0.slim.min.js ${IHP}/static/vendor/timeago.js ${IHP}/static/vendor/popper.min.js ${IHP}/static/vendor/bootstrap.min.js ${IHP}/static/vendor/flatpickr.js ${IHP}/static/helpers.js ${IHP}/static/vendor/morphdom-umd.min.js ${IHP}/static/vendor/turbolinks.js ${IHP}/static/vendor/turbolinksInstantClick.js ${IHP}/static/vendor/turbolinksMorphdom.js
+# environment
+LANG = C
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# default
+.LOADED := 
+# environment
+TMP = /run/user/1000
+# default
+.INCLUDE_DIRS = /nix/store/315glp1si526x60nhhkbqmip4m7b25a7-gnumake-4.3/include
+# makefile
+MAKEFLAGS = pqrR --warn-undefined-variables
+# environment
+NIX_BUILD_CORES = 16
+# environment
+stdenv = /nix/store/xcmlbsqabmckx42p8w18ri5zq8v2iiav-stdenv-linux
+# environment
+NIX_HARDENING_ENABLE = fortify stackprotector pic strictoverflow format relro bindnow
+# makefile
+CURDIR := /home/cjd/blog
+# environment
+NIX_BINTOOLS = /nix/store/v7w0pspwq8r2b7k2sndxq3db843z7xm5-binutils-wrapper-2.35.2
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+export = null
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# makefile (from 'build/ihp-lib/Makefile.dist', line 60)
+GHC_RTS_FLAGS := -A256m -n2m -N
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+dontFixup = 1
+# environment
+MFLAGS = -pqrR --warn-undefined-variables
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# makefile (from 'build/ihp-lib/Makefile.dist', line 1)
+MAKEFILE_LIST := Makefile build/ihp-lib/Makefile.dist
+# makefile (from 'build/ihp-lib/Makefile.dist', line 88)
+RUNGHC = runghc
+# environment
+SNAP_REEXEC = 
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 5185
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+installPhase = null
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+RANLIB = ranlib
+# environment
+BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
+# environment
+propagatedNativeBuildInputs = 
+# environment
+depsHostHost = 
+# environment
+SESSION_MANAGER = local/cjd:@/tmp/.ICE-unix/2409,unix/cjd:/tmp/.ICE-unix/2409
+# automatic
+*F = $(notdir $*)
+# makefile (from 'Makefile', line 17)
+CSS_FILES = ${IHP}/static/vendor/bootstrap.min.css ${IHP}/static/vendor/flatpickr.min.css static/app.css
+# environment
+shell = /nix/store/a54wrar1jym1d8yvlijq0l2gghmy8szz-bash-5.1-p12/bin/bash
+# environment
+system = x86_64-linux
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+depsBuildBuild = 
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# makefile (from 'build/ihp-lib/Makefile.dist', line 72)
+GHC_OPTIONS = -threaded -i. -ibuild -iConfig -iIHP -iIHP/IDE ${GHC_EXTENSIONS} -j -package-env -  +RTS ${GHC_RTS_FLAGS} --RTS -package ihp -rtsopts=all
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{},"_languagePackSupport":true}
+# environment
+depsTargetTargetPropagated = 
+# environment
+depsBuildTargetPropagated = 
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# makefile
+SHELL = sh
+# default
+MAKECMDGOALS := all
+# environment
+XMODIFIERS = @im=ibus
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# environment
+SHLVL = 1
+# environment
+STRINGS = strings
+# environment
+buildInputs = /nix/store/1x0n406jvcxp6j77mznpbc4j6d604i1j-ghc-8.10.7-with-packages /nix/store/ywwbjpn24a3fq5912zcy2vw24xz42ayk-postgresql-and-plugins-13.5 /nix/store/6rnp1psxb8lhyrgfaif9hvs94anvs3hg-hook
+# environment
+NIX_GHC_LIBDIR = /nix/store/1x0n406jvcxp6j77mznpbc4j6d604i1j-ghc-8.10.7-with-packages/lib/ghc-8.10.7
+# environment
+NIX_CC = /nix/store/xiq6j4jsyj351p8q3yw9cg1hdqp9m685-gcc-wrapper-10.3.0
+# makefile (from 'build/ihp-lib/Makefile.dist', line 93)
+IHP_LIB = $(shell dirname $$(which RunDevServer))/../lib/IHP
+# environment
+MAKELEVEL := 0
+# environment
+OBJDUMP = objdump
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+SNAP_COOKIE = b2j7gDpJvyDHCnLASJoHbJGmPYY3JBAd5detF5NRsAqCvDTyusSQ
+# environment
+PATH = /nix/store/33b55fvq7v9rp68g24djjk9rr3hb4rn0-bash-interactive-5.1-p16/bin:/nix/store/pjba17qx8vh7dln8m5vnkqdbbjahvg9b-patchelf-0.13/bin:/nix/store/xiq6j4jsyj351p8q3yw9cg1hdqp9m685-gcc-wrapper-10.3.0/bin:/nix/store/iyssx2arl8bc40pjimyfxyknj06swjdx-gcc-10.3.0/bin:/nix/store/q6prgn66s4achzrrnvcvyjgnm94c1bn3-glibc-2.33-56-bin/bin:/nix/store/l6f4z8mmcnnxba8w004xn28y0vr4gdkf-coreutils-9.0/bin:/nix/store/v7w0pspwq8r2b7k2sndxq3db843z7xm5-binutils-wrapper-2.35.2/bin:/nix/store/lbxfixyw1yk099pjyaiy3xj5dl7kxm1g-binutils-2.35.2/bin:/nix/store/1x0n406jvcxp6j77mznpbc4j6d604i1j-ghc-8.10.7-with-packages/bin:/nix/store/ywwbjpn24a3fq5912zcy2vw24xz42ayk-postgresql-and-plugins-13.5/bin:/nix/store/yilda176cq33hbv240mqzkf6ks6r9b1p-ncurses-6.2/bin:/nix/store/l6f4z8mmcnnxba8w004xn28y0vr4gdkf-coreutils-9.0/bin:/nix/store/v3lvq9hqshyldc4i6f5jy0zs0k5psbws-findutils-4.8.0/bin:/nix/store/gxj3wkwc5m5vb8b3rv6h029ky9nan4bf-diffutils-3.8/bin:/nix/store/vklvyr82ajbz7jm7g8dbkh62k20b0dpr-gnused-4.8/bin:/nix/store/nkwls56wcfwi1r0jnkqkvwx2zk7w3qrz-gnugrep-3.7/bin:/nix/store/21nzalbq7ay1vzanri1dl4845s3cl72i-gawk-5.1.1/bin:/nix/store/wny483nz9q52xq8azwpqna3pq98zcsgy-gnutar-1.34/bin:/nix/store/mp7lwrwr0nl69rznln13j3k4zf69s80i-gzip-1.11/bin:/nix/store/m9jxbbbxfzi6052yw3kgz95wvz76mbb1-bzip2-1.0.6.0.2-bin/bin:/nix/store/315glp1si526x60nhhkbqmip4m7b25a7-gnumake-4.3/bin:/nix/store/a54wrar1jym1d8yvlijq0l2gghmy8szz-bash-5.1-p12/bin:/nix/store/h2xzp4a764hn5n9br63ilh9qglz3baxn-patch-2.7.6/bin:/nix/store/3q4xj02ijqgfxffndvg28nlv741sx6qx-xz-5.2.5-bin/bin:/home/cjd/.nix-profile/bin:/home/cjd/.nix-profile/bin:/home/cjd/.cabal/bin:/home/cjd/.ghcup/bin:/home/cjd/.nix-profile/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+# environment
+NIX_SSL_CERT_FILE = /etc/ssl/certs/ca-certificates.crt
+# default
+MAKEFILES := 
+# environment
+LANGUAGE = zh_CN:zh
+# automatic
+^F = $(notdir $^)
+# makefile (from 'Makefile', line 5)
+IHP = build/ihp-lib
+# environment
+SNAP_USER_COMMON = /home/cjd/snap/code/common
+# environment
+doCheck = 
+# environment
+NIX_GHC = /nix/store/1x0n406jvcxp6j77mznpbc4j6d604i1j-ghc-8.10.7-with-packages/bin/ghc
+# environment
+SNAP = /snap/code/95
+# environment
+INVOCATION_ID = 495702cff23949d0a3b253c896b5a959
+# environment
+configureFlags = 
+# environment
+SNAP_REVISION = 95
+# environment
+SNAP_REAL_HOME = /home/cjd
+# environment
+name = app
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = cjd
+# environment
+SIZE = size
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# automatic
+?F = $(notdir $?)
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# environment
+READELF = readelf
+# environment
+IHP_EDITOR = code --goto
+# environment
+src = /nix/store/2y7cxfh48pqa3ccg7n1gx8wzs4m3jbgm-blog
+# environment
+LS_COLORS = 
+# automatic
++F = $(notdir $+)
+# environment
+DESKTOP_SESSION = ubuntu
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+NIX_BINTOOLS_WRAPPER_TARGET_HOST_x86_64_unknown_linux_gnu = 1
+# environment
+LOGNAME = cjd
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /var/lib/snapd/desktop/applications/code_code.desktop
+# environment
+propagatedBuildInputs = 
+# environment
+NIX_INDENT_MAKE = 1
+# environment
+SNAP_ARCH = amd64
+# makefile (from 'build/ihp-lib/Makefile.dist', line 87)
+.DEFAULT_GOAL := help
+# environment
+SYSTEMD_EXEC_PID = 2434
+# environment
+CONFIG_SHELL = /nix/store/a54wrar1jym1d8yvlijq0l2gghmy8szz-bash-5.1-p12/bin/bash
+# environment
+NIX_STORE = /nix/store
+# environment
+depsBuildBuildPropagated = 
+# environment
+DISPLAY = :1
+# environment
+USER = cjd
+# environment
+GTK_MODULES = gail:atk-bridge
+# default
+MAKE_VERSION := 4.3
+# environment
+DISABLE_WAYLAND = 1
+# environment
+NIX_PROFILES = /nix/var/nix/profiles/default /home/cjd/.nix-profile
+# environment
+SNAP_DATA = /var/snap/code/95
+# environment
+SNAP_CONTEXT = b2j7gDpJvyDHCnLASJoHbJGmPYY3JBAd5detF5NRsAqCvDTyusSQ
+# environment
+depsHostHostPropagated = 
+# environment
+MANAGERPID = 1936
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 5145
+# environment
+depsTargetTarget = 
+# environment
+depsBuildTarget = 
+# environment
+NIX_BUILD_TOP = /run/user/1000
+# environment
+_ = /snap/code/95/usr/share/code/code
+# environment
+patches = 
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+ 
+outputs = out
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+GDK_PIXBUF_MODULE_FILE = /home/cjd/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+# environment
+NIX_GHC_DOCDIR = /nix/store/1x0n406jvcxp6j77mznpbc4j6d604i1j-ghc-8.10.7-with-packages/share/doc/ghc/html
+# environment
+JOURNAL_STREAM = 8:20227
+# environment
+IN_NIX_SHELL = impure
+# environment
+NIX_ENFORCE_NO_NATIVE = 1
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+builder = /nix/store/a54wrar1jym1d8yvlijq0l2gghmy8szz-bash-5.1-p12/bin/bash
+# environment
+HOME = /home/cjd
+# environment
+QT_IM_MODULE = ibus
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-05dbe5db-1.67.0-main.sock
+# environment
+TEMP = /run/user/1000
+# environment
+SNAP_NAME = code
+# environment
+GSETTINGS_SCHEMA_DIR = /snap/code/95/usr/share/glib-2.0/schemas
+# environment
+nativeBuildInputs = 
+# environment
+NM = nm
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# environment
+SNAP_VERSION = 57fd6d01
+# default
+SUFFIXES := 
+# environment
+LD = ld
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+NIX_CC_WRAPPER_TARGET_HOST_x86_64_unknown_linux_gnu = 1
+# environment
+SNAP_COMMON = /var/snap/code/common
+# environment
+STRIP = strip
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# environment
+HOST_PATH = /nix/store/1x0n406jvcxp6j77mznpbc4j6d604i1j-ghc-8.10.7-with-packages/bin:/nix/store/ywwbjpn24a3fq5912zcy2vw24xz42ayk-postgresql-and-plugins-13.5/bin:/nix/store/l6f4z8mmcnnxba8w004xn28y0vr4gdkf-coreutils-9.0/bin:/nix/store/v3lvq9hqshyldc4i6f5jy0zs0k5psbws-findutils-4.8.0/bin:/nix/store/gxj3wkwc5m5vb8b3rv6h029ky9nan4bf-diffutils-3.8/bin:/nix/store/vklvyr82ajbz7jm7g8dbkh62k20b0dpr-gnused-4.8/bin:/nix/store/nkwls56wcfwi1r0jnkqkvwx2zk7w3qrz-gnugrep-3.7/bin:/nix/store/21nzalbq7ay1vzanri1dl4845s3cl72i-gawk-5.1.1/bin:/nix/store/wny483nz9q52xq8azwpqna3pq98zcsgy-gnutar-1.34/bin:/nix/store/mp7lwrwr0nl69rznln13j3k4zf69s80i-gzip-1.11/bin:/nix/store/m9jxbbbxfzi6052yw3kgz95wvz76mbb1-bzip2-1.0.6.0.2-bin/bin:/nix/store/315glp1si526x60nhhkbqmip4m7b25a7-gnumake-4.3/bin:/nix/store/a54wrar1jym1d8yvlijq0l2gghmy8szz-bash-5.1-p12/bin:/nix/store/h2xzp4a764hn5n9br63ilh9qglz3baxn-patch-2.7.6/bin:/nix/store/3q4xj02ijqgfxffndvg28nlv741sx6qx-xz-5.2.5-bin/bin
+# environment
+CXX = g++
+# environment
+CC = gcc
+# environment
+OBJCOPY = objcopy
+# environment
+SNAP_USER_DATA = /home/cjd/snap/code/95
+# makefile (from 'build/ihp-lib/Makefile.dist', line 84)
+PROD_GHC_OPTIONS = -funfolding-use-threshold=16 -optc-O3 -funbox-strict-fields -fconstraint-solver-iterations=100 -fexpose-all-unfoldings -flate-dmd-anal -fspec-constr-keen -fspecialise-aggressively -fstatic-argument-transformation -fmax-worker-args=200 -with-rtsopts="-A512m -n4m -N"
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+GDMSESSION = ubuntu
+# environment
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
+# variable set hash-table stats:
+# Load=201/1024=20%, Rehash=0, Collisions=15/402=4%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# IHP: could not be stat'd.
+# Application/Script (device 66306, inode 25173818): No files, no impossibilities so far.
+# build/Script/Main: could not be stat'd.
+# . (device 66306, inode 25173401): 21 files, no impossibilities.
+
+# 21 files, no impossibilities in 4 directories.
+
+# Implicit Rules
+
+build/bin/Script/%: build/Script/Main/%.hs
+#  recipe to execute (from 'build/ihp-lib/Makefile.dist', line 184):
+	mkdir -p build/bin/Script
+	# If RunOptimizedProdServer is compiled, likely we have object files with O2 in the build directory, so we're making an optimized script
+	# Otherwise we're doing a unoptimized compile as it's much faster
+	if [[ -f "build/bin/RunOptimizedProdServer" ]]; then \
+		ghc -O2 ${GHC_OPTIONS} ${PROD_GHC_OPTIONS} $< -o $@ -odir build/RunOptimizedProdServer -hidir build/RunOptimizedProdServer; \
+	else \
+		ghc -O0 ${GHC_OPTIONS} $< -o $@ -odir build/RunUnoptimizedProdServer -hidir build/RunUnoptimizedProdServer; \
+	fi
+
+build/Script/Main/%.hs: Application/Script/%.hs
+#  recipe to execute (from 'build/ihp-lib/Makefile.dist', line 194):
+	mkdir -p build/Script/Main
+	echo "module Main (main) where" > $@
+	echo "import IHP.ScriptSupport" >> $@
+	echo "import qualified Config" >> $@
+	echo "import Application.Script.$* (run)" >> $@
+	echo "main = runScript Config.config run" >> $@
+
+# 2 implicit rules, 0 (0.0%) terminal.
+# Files
+
+# Not a target:
+build/ihp-lib/static/vendor/turbolinksMorphdom.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+print-ghc-options:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'build/ihp-lib/Makefile.dist', line 166):
+	@echo ${GHC_OPTIONS}
+
+# Not a target:
+build/ihp-lib/static/vendor/flatpickr.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/ihp-lib:
+#  Implicit rule search has not been done.
+#  Last modified 1970-01-01 08:00:01
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'build/ihp-lib/Makefile.dist', line 175):
+	mkdir -p build
+	rm -f build/ihp-lib
+	ln -s ${IHP_LIB} build/ihp-lib
+
+# Not a target:
+build/ihp-lib/Makefile.dist:
+#  Implicit rule search has been done.
+#  Last modified 1970-01-01 08:00:01
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/ihp-lib/static/helpers.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/ihp-lib/static/vendor/popper.min.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+default.nix:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/RunJobs.hs: build/Generated/Types.hs
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'build/ihp-lib/Makefile.dist', line 212):
+	echo "module RunJobs (main) where" > $@
+	echo "import Application.Script.Prelude" >> $@
+	echo "import IHP.ScriptSupport" >> $@
+	echo "import IHP.Job.Runner" >> $@
+	echo "import qualified Config" >> $@
+	echo "import Main ()" >> $@
+	echo "main :: IO ()" >> $@
+	echo "main = runScript Config.config (runJobWorkers (workers RootApplication))" >> $@
+
+build/bin/RunJobsOptimized: build/RunJobs.hs
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'build/ihp-lib/Makefile.dist', line 206):
+	mkdir -p build/bin
+	ghc -O2 -main-is 'RunJobs.main' ${GHC_OPTIONS} ${PROD_GHC_OPTIONS} $< -o $@ -odir build/RunOptimizedProdServer -hidir build/RunOptimizedProdServer # We use object files by build/bin/RunOptimizedProdServer here to speed up compilation during deployments
+	rm -f build/bin/RunJobs
+	ln -s `basename $@` build/bin/RunJobs
+
+build/bin/RunOptimizedProdServer: Main.hs build/bin static/prod.js static/prod.css build/Generated/Types.hs
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'build/ihp-lib/Makefile.dist', line 147):
+	mkdir -p build/RunOptimizedProdServer
+	ghc -O2 ${GHC_OPTIONS} ${PROD_GHC_OPTIONS} $< -o $@ -odir build/RunOptimizedProdServer -hidir build/RunOptimizedProdServer
+	chmod +x $<
+	rm -f build/bin/RunProdServer
+	ln -s `basename $@` build/bin/RunProdServer
+
+hie.yaml:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'build/ihp-lib/Makefile.dist', line 222):
+	echo "cradle:" > hie.yaml
+	echo "  bios:" >> hie.yaml
+	echo "    program: build/ihp-lib/.hie-bios" >> hie.yaml
+
+.PRECIOUS: .envrc build/envrc
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-07 11:17:43.543741051
+#  File has been updated.
+#  Successfully updated.
+
+static/prod.css: build/ihp-lib/static/vendor/bootstrap.min.css build/ihp-lib/static/vendor/flatpickr.min.css static/app.css
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'build/ihp-lib/Makefile.dist', line 163):
+	cat $(CSS_FILES) > $@
+
+build/bin/RunUnoptimizedProdServer: Main.hs build/bin static/prod.js static/prod.css build/Generated/Types.hs
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'build/ihp-lib/Makefile.dist', line 140):
+	mkdir -p build/RunUnoptimizedProdServer
+	ghc -O0 ${GHC_OPTIONS} $< -o $@ -odir build/RunUnoptimizedProdServer -hidir build/RunUnoptimizedProdServer
+	chmod +x $<
+	rm -f build/bin/RunProdServer
+	ln -s `basename $@` build/bin/RunProdServer
+
+# Not a target:
+Application/Schema.sql:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-08 18:29:49.915237339
+#  File has been updated.
+#  Successfully updated.
+
+print-ghc-extensions:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'build/ihp-lib/Makefile.dist', line 169):
+	@echo ${GHC_EXTENSIONS}
+
+.envrc: build/envrc default.nix
+#  Precious file (prerequisite of .PRECIOUS).
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'build/ihp-lib/Makefile.dist', line 102):
+	rm -f .envrc
+	mv build/envrc .envrc
+	direnv allow
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'build/ihp-lib/Makefile.dist', line 154):
+	rm -rf build/bin
+	rm -rf IHP/IHP/static/node_modules
+	rm -rf build/db
+	rm -f .envrc
+
+# Not a target:
+build/ihp-lib/static/vendor/bootstrap.min.css:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/ihp-lib/static/vendor/jquery-3.6.0.slim.min.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+prepare-optimized-nix-build:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'build/ihp-lib/Makefile.dist', line 234):
+	sed -i '' 's/haskellDeps/optimized = true;\n        haskellDeps/g' default.nix
+
+# Not a target:
+static/app.css:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+run-production: build/bin/RunProdServer build/Generated/Types.hs
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'build/ihp-lib/Makefile.dist', line 117):
+	build/bin/RunProdServer
+
+psql:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'build/ihp-lib/Makefile.dist', line 123):
+	@psql -h $$PWD/build/db -d app
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: build/ihp-lib build/Generated/Types.hs
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/ihp-lib/static/vendor/turbolinks.js:
+ 
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+help:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'build/ihp-lib/Makefile.dist', line 172):
+	@grep -h -E '^[a-zA-Z_///-\.]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
+
+# Not a target:
+build/ihp-lib/static/vendor/morphdom-umd.min.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+console: ghci
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/ihp-lib/static/vendor/flatpickr.min.css:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/envrc: default.nix
+#  Precious file (prerequisite of .PRECIOUS).
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'build/ihp-lib/Makefile.dist', line 109):
+	rm -f build/envrc
+	mkdir -p build
+	echo "PATH_add $$(nix-shell -j auto --cores 0 --pure --run 'printf %q $$PATH')" > build/envrc
+
+dumpdb: dump_db
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/ihp-lib/static/vendor/bootstrap.min.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+db: Application/Schema.sql Application/Fixtures.sql
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'build/ihp-lib/Makefile.dist', line 126):
+	echo "drop schema public cascade; create schema public;" | psql -h $$PWD/build/db -d app
+	psql -h $$PWD/build/db -d app < "${IHP_LIB}/IHPSchema.sql"
+	psql -h $$PWD/build/db -d app < Application/Schema.sql
+	psql -h $$PWD/build/db -d app < Application/Fixtures.sql
+
+postgres:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'build/ihp-lib/Makefile.dist', line 120):
+	@if [ -s build/db/state/postmaster.pid ]; then echo "Postgres is already running."; else echo "Starting postgres"; postgres -D build/db/state -k $$PWD/build/db -c "listen_addresses="; fi
+
+build/bin:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'build/ihp-lib/Makefile.dist', line 114):
+	mkdir -p build/bin
+
+# Not a target:
+Application/Fixtures.sql:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/ihp-lib/static/vendor/turbolinksInstantClick.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build/bin/RunJobs: build/RunJobs.hs
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'build/ihp-lib/Makefile.dist', line 202):
+	mkdir -p build/bin
+	ghc -O0 -main-is 'RunJobs.main' ${GHC_OPTIONS} $< -o $@ -odir build/RunUnoptimizedProdServer -hidir build/RunUnoptimizedProdServer # We use object files by build/bin/RunUnoptimizedProdServer here to speed up compilation during deployments
+
+# Not a target:
+build/bin/RunProdServer:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: help all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+static/prod.js: build/ihp-lib/static/vendor/jquery-3.6.0.slim.min.js build/ihp-lib/static/vendor/timeago.js build/ihp-lib/static/vendor/popper.min.js build/ihp-lib/static/vendor/bootstrap.min.js build/ihp-lib/static/vendor/flatpickr.js build/ihp-lib/static/helpers.js build/ihp-lib/static/vendor/morphdom-umd.min.js build/ihp-lib/static/vendor/turbolinks.js build/ihp-lib/static/vendor/turbolinksInstantClick.js build/ihp-lib/static/vendor/turbolinksMorphdom.js
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'build/ihp-lib/Makefile.dist', line 160):
+	awk -v RS='\0' '{print "(function (window, document, undefined) {"; print; print "\n})(window, document);";}' $(JS_FILES) > $@
+
+# Not a target:
+Main.hs:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+dump_db:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'build/ihp-lib/Makefile.dist', line 133):
+	pg_dump -a --inserts --column-inserts --disable-triggers -h $$PWD/build/db app | sed -e '/^--/d' > Application/Fixtures.sql
+
+build/Generated/Types.hs: Application/Schema.sql
+#  Implicit rule search has not been done.
+#  Last modified 2022-05-08 18:29:49.919237172
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'build/ihp-lib/Makefile.dist', line 136):
+	mkdir -p build/Generated
+	build-generated-code
+
+ghci:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'build/ihp-lib/Makefile.dist', line 228):
+	ghci -package-env -
+
+# Not a target:
+build/ihp-lib/static/vendor/timeago.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=51/1024=5%, Rehash=0, Collisions=3/114=3%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 74 / storage = 1411 B / avg = 19 B
+# current buf: size = 8162 B / used = 1411 B / count = 74 / avg = 19 B
+
+# strcache performance: lookups = 137 / hit rate = 45%
+# hash-table stats:
+# Load=74/8192=1%, Rehash=0, Collisions=0/137=0%
+# Finished Make data base on Mon May  9 10:32:00 2022
+
+ 
